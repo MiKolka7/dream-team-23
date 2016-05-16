@@ -1,1 +1,59 @@
-html.
+.wrap {}
+.header {
+	position: relative;
+}
+.header-top {
+	position: absolute;
+	top: 59px;
+	left: 89px;
+	right: 57px;
+}
+.menu {
+	float: right;
+	line-height: 63px;
+}
+.menu-item {
+	width: 72px;
+	height: 9px;
+	margin: 0 16px;
+	color: #fff;
+	font-family: Raleway;
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 24px;
+	text-transform: uppercase;
+}
+.menu-item:hover {
+	border-bottom: 1px solid #fff;
+} 
+.icon-menu {}
+.icon-search {}
+.slide {}
+.main {
+	text-align: center;
+}
+.footer {}
+.logo {
+	width: 104px;
+}
+
+.title {
+	color: #303030;
+	text-align: center;
+	font-family: PlayfairDisplay;
+	font-size: 30px;
+	font-style: italic;
+	line-height: 24px;
+}
+
+.article-title {
+	text-align: centre;
+} 
+.avtor {
+	width:15%;
+	border-radius:50% 50%;
+	
+}
+.container {
+	
+}
