@@ -60,9 +60,10 @@ table {
 	transition: all .3s ease-out;
 }
 .menu-item:hover {
-	opacity: 0.6;
 	cursor: pointer;
-	border-bottom: 1px solid #fff;
+
+    opacity: 0.9;
+    color: #fed136;
 } 
 .icon-menu {}
 .icon-search {}
