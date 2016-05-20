@@ -1,6 +1,6 @@
 .services{
-	width: 934px;
-	height: 330px;
+	width: 80%;
+	margin: 0 auto;
 }
 .title-services{
 	width: 193px;
@@ -11,19 +11,56 @@
 	font-weight: 700;
 	line-height:75px;
 	text-transform: uppercase;
+	margin: 5% auto;
+}
+.title-cws{
+	/* Text style for "E-Commerce" */
+	color: #222;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 50px;
 }
 .sub-title{
-	width: 296px;
-	height: 17px;
+	width: 25%;
 	color: #777;
-	font-family: DroidSerif;
+	font-family: Droid Serif;
 	font-style: italic;
+	margin: 5% auto;
 }
 .commerce,
 .web,
 .security{
-	width: 274px;
-	height: 189px;
+	width: 20%;
+	display: inline-block;
+	text-align: center;
+	margin: 3%;
+}
+.cont{
+	width: 80%;
+	text-align: center;
+	margin: -5% auto;
+}
+.pic_services-basket{ width: 50%; margin: 0 auto; margin-top: 24%;}
+.pic_services-laptop{ width: 50%; margin: 0 auto; margin-top: 28%;}
+.pic_services-lock{ width: 40%; margin: 0 auto; margin-top: 21%;}
+
+.background:hover{
+	visibility: visible;
+	opacity: 0.8;
+	cursor: pointer;
+	background: black;
+}
+.background{
+	border: 3px solid #fed136;
+	border-radius: 100%;
+	width: 72px;
+	height: 72px;
+	background-color: white;
+	border: 3px solid #fed136;
+	list-style-type: none;
+	margin: 0 auto;
+	transition: all .4s ease .15s;
 }
 .title-commerce{
 	width: 115px;
@@ -53,10 +90,10 @@
 	line-height: 75px;
 }
 .description{
-	width: 274px;
-	height: 57px;
+	width: 110%;
 	color: #777;
 	font-family: RobotoSlab;
 	font-size: 14px;
 	font-weight: 400;
+	text-align: center;
 }
