@@ -1,0 +1,244 @@
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-spacing: 0;
+} 
+/* end reset browser styles */
+.clearfix::after{
+	content:'';
+	clear: both;
+	overflow: hidden;
+	display: block;
+}
+.wrap {}
+.header {
+	position: relative;
+}
+.header-top {
+	position: absolute;
+	top: 59px;
+	left: 89px;
+	right: 57px;
+}
+.menu {
+	float: right;
+	line-height: 63px;
+}
+.menu-item {
+	width: 72px;
+	height: 9px;
+	margin: 0 16px;
+	color: #fff;
+	font-family: Montserrat;
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 24px;
+	text-transform: uppercase;
+	transition: all .3s ease-out;
+}
+.menu-item:hover {
+	cursor: pointer;
+
+    opacity: 0.9;
+    color: #fed136;
+} 
+.icon-menu {}
+.icon-search {}
+.slide {
+	height: 700px;
+	background: url('../image/background_header.jpg') 100% 100% no-repeat;
+	background-size: cover;
+}
+.main {
+	text-align: center;
+}
+.footer {}
+.logo {
+	width: 104px;
+}
+
+.title {
+	color: #303030;
+	text-align: center;
+	font-family: Montserrat;
+	font-size: 30px;
+	font-style: italic;
+	line-height: 24px;
+}
+
+.article-title {
+	text-align: center;
+} 
+.avtor {
+	width:15%;
+	border-radius:50% 50%;
+}
+.welcome{
+	/* Text style for "Welcome To Our" */
+	width: 30%;
+	height: 40%;
+	color: white;
+	font-family: Droid Serif;
+	font-size: 40px;
+	font-style: italic;
+	margin: 0 auto;
+	line-height: 11;
+}
+.NTMU{
+	/* Text style for "It’s nice to M" */
+	width: 57%;
+	color: white;
+	font-family: Montserrat;
+	font-size: 75px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0 auto;
+}
+.tell_me
+{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+
+    width: 15.6%;
+    height: 10%;
+    margin: 2.5% 0 0 42%;
+
+    transition: all .3s ease .15s;
+    text-transform: uppercase;
+    /* Text style for "Tell Me More" */
+
+    color: white;
+    border-radius: 2px;
+    background: #fed136;
+}
+
+.container {
+	
+}
+.services{
+	width: 80%;
+	margin: 0 auto;
+}
+.title-services{
+	width: 193px;
+	height: 30px;
+	color:#222;
+	font-family: Montserrat;
+	font-size:40px;
+	font-weight: 700;
+	line-height:75px;
+	text-transform: uppercase;
+	margin: 5% auto;
+}
+.title-cws{
+	/* Text style for "E-Commerce" */
+	color: #222;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 50px;
+}
+.sub-title{
+	width: 25%;
+	color: #777;
+	font-family: Droid Serif;
+	font-style: italic;
+	margin: 5% auto;
+}
+.commerce,
+.web,
+.security{
+	width: 20%;
+	display: inline-block;
+	text-align: center;
+	margin: 3%;
+}
+.cont{
+	width: 80%;
+	text-align: center;
+	margin: -5% auto;
+}
+.pic_services-basket{ width: 50%; margin: 0 auto; margin-top: 24%;}
+.pic_services-laptop{ width: 50%; margin: 0 auto; margin-top: 28%;}
+.pic_services-lock{ width: 40%; margin: 0 auto; margin-top: 21%;}
+
+.background:hover,
+.tell_me:hover{
+	position: static;
+	visibility: visible;
+	opacity: 0.8;
+	cursor: pointer;
+	background-color: #696969;
+	border: 3px solid #696969;
+}
+
+.background{
+	border: 3px solid #fed136;
+	border-radius: 100%;
+	width: 72px;
+	height: 72px;
+	background-color: white;
+	border: 3px solid #fed136;
+	list-style-type: none;
+	margin: 0 auto;
+	transition: all .4s ease .15s;
+}
+.title-commerce{
+	width: 115px;
+	height: 14px;
+	color: #222;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 75px;
+}
+.title-web{
+	width: 114px;
+	height: 18px;
+	color: #222;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 75;
+}
+.title-security{
+	width: 118px;
+	height: 18px;
+	color: #222;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 75px;
+}
+.description{
+	width: 110%;
+	color: #777;
+	font-family: RobotoSlab;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+}
