@@ -47,46 +47,30 @@ table {
 	float: right;
 	line-height: 63px;
 }
-.menu-item {
-	width: 72px;
-	height: 9px;
-	margin: 0 16px;
-	color: #fff;
-	font-family: Montserrat;
-	font-size: 13px;
-	font-weight: 600;
-	line-height: 24px;
-	text-transform: uppercase;
-	transition: all .3s ease-out;
-}
+.menu-item { width: 72px; height: 9px; margin: 0 16px; color: #fff; font-family: Montserrat; font-size: 13px; font-weight: 600; line-height: 24px; text-transform: uppercase; transition: all .3s ease-out;}
 .menu-item:hover {
 	cursor: pointer;
-
     opacity: 0.9;
     color: #fed136;
 } 
 .icon-menu {}
 .icon-search {}
+.footer {}
+.container {}
 .slide {
 	height: 700px;
 	background: url('../image/background_header.jpg') 100% 100% no-repeat;
 	background-size: cover;
 }
-.main {
-	text-align: center;
-}
-.footer {}
 .logo {
 	width: 104px;
 }
 
 .title {
 	color: #303030;
-	text-align: center;
 	font-family: Montserrat;
 	font-size: 30px;
 	font-style: italic;
-	line-height: 24px;
 }
 
 .article-title {
@@ -122,26 +106,19 @@ table {
     font-family: Montserrat;
     font-size: 18px;
     font-weight: 700;
-
     width: 15.6%;
     height: 10%;
     margin: 2.5% 0 0 42%;
-
     transition: all .3s ease .15s;
     text-transform: uppercase;
     /* Text style for "Tell Me More" */
-
     color: white;
     border-radius: 2px;
     background: #fed136;
 }
-
-.container {
-	
-}
 .services{
 	width: 80%;
-	margin: 0 auto;
+	margin: 6.5% auto;
 }
 .title-services{
 	width: 193px;
@@ -163,7 +140,6 @@ table {
 	line-height: 50px;
 }
 .sub-title{
-	width: 25%;
 	color: #777;
 	font-family: Droid Serif;
 	font-style: italic;
@@ -175,7 +151,7 @@ table {
 	width: 20%;
 	display: inline-block;
 	text-align: center;
-	margin: 3%;
+	margin: 4%;
 }
 .cont{
 	width: 80%;
@@ -235,10 +211,82 @@ table {
 	line-height: 75px;
 }
 .description{
-	width: 110%;
+	width: 115%;
 	color: #777;
-	font-family: RobotoSlab;
+	font-family: Roboto Slab;
 	font-size: 14px;
 	font-weight: 400;
 	text-align: center;
+	word-spacing: 5px;
 }
+.gallery{
+	width: 100%;
+	height: 1218px;
+	background-color: #f7f7f7;
+}
+.gallery_inside{
+	padding: 6.1%;
+}
+.title-portfolio{
+	width: 320px;
+	height: 30px;
+	color: #222;
+	font-family: Montserrat;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 75px;
+	text-transform: uppercase;
+	margin: 0 auto;
+	white-space: nowrap;
+}
+.sub-title{
+	/* Text style for "Proin iaculis" */
+	width: 29.6%;
+	color: #777;
+	font-family: Droid Serif;
+	font-size: 16px;
+	font-style: italic;
+	text-align: center;
+}
+.prtflio{
+	width: 75%;
+	margin: 0 auto;
+}
+.prtflio_item{
+	list-style-type: none;
+	float: left;
+	margin: 2% ;
+	background-color: white;
+	transition: all .3s ease .15s;
+}
+.prtflio_item:hover{
+	cursor:pointer;
+	opacity: 0.7;
+}
+.prtflio-title
+{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30px;
+    width: 65%;
+    height: 18px;
+    margin: 0 auto;
+    padding-top: 6%;
+    text-align: center;
+    color: #333;
+}
+.prtflio_sub-title
+{
+    font-family: DroidSerif;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 35px;
+    /* Text style for "Product Mock-U" */
+    width: 40%;
+    margin: 0 auto;
+    padding-bottom: 10%;
+    text-align: center;
+    color: #737373;
+}
+
