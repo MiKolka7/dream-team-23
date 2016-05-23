@@ -304,9 +304,7 @@ table {
 .block
 {
     width: 70%;
-    margin: 0 auto;
-    
-    
+    margin: 0 auto;       
 }
 .step1
 {
@@ -356,5 +354,3 @@ table {
     text-align: center;
     color: #777;
 }
-
-
