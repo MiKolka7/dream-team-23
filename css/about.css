@@ -34,21 +34,17 @@ img{
 	height: 170px;
 	margin:auto;
 }
-.clearfix:after{
-		content:'';
-		clear:both;
-		display:inline-block;
-		overflow:hidden;
-.col-1,.col-2,.col-3,.col-4{
-		width:20%;
-		float:left;
-		
+h3{
+	width: 350px;
+	height: 43px;
+	color: #222;
+	text-align:right;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+h3 p{
+	text-transform: capitalize
 	}
-	.col-1 img,.col-3 img{
-		float:left;
-		margin: 0 5px 5px 0;
-		border-radius: 5%;
-	}
-	.col-2 img,.col-4 img{
-		float: right;
-		margin: 0;
+
