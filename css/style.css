@@ -62,11 +62,9 @@ table {
 .menu-item:hover
 {
     cursor: pointer;
-
     opacity: 0.9;
     color: #fed136;
 }
-
 .icon-menu {}
 .icon-search {}
 .slide {
@@ -82,7 +80,6 @@ table {
 .logo {
 	width: 104px;
 }
-
 .title {
 	color: #303030;
 	text-align: center;
@@ -91,7 +88,6 @@ table {
 	font-style: italic;
 	line-height: 24px;
 }
-
 .article-title {
 	text-align: center;
 } 
@@ -119,7 +115,4 @@ table {
 	font-weight: 700;
 	text-transform: uppercase;
 	margin: 0 auto;
-}
-.container {
-	
 }

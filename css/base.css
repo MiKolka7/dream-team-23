@@ -75,14 +75,12 @@ table {
 	background-size: cover;
 	margin-left: -3%;
 }
-
 .title {
 	color: #303030;
 	font-family: Montserrat;
 	font-size: 30px;
 	font-style: italic;
 }
-
 .welcome{
 	/* Text style for "Welcome To Our" */
 	width: 35%;
@@ -169,7 +167,6 @@ table {
 .pic_services-basket{ width: 50%; margin: 0 auto; margin-top: 24%; padding-bottom: 15%;}
 .pic_services-laptop{ width: 50%; margin: 0 auto; margin-top: 28%; padding-bottom: 16%;}
 .pic_services-lock{ width: 40%; margin: 0 auto; margin-top: 21%; padding-bottom: 16%;}
-
 .background{
 	border: 3px solid #fed136;
 	border-radius: 100%;
@@ -190,7 +187,6 @@ table {
 	background-color: #696969;
 	border: 0.3em solid #696969;
 }
-
 .title-commerce{
 	width: 115px;
 	height: 14px;
@@ -382,7 +378,6 @@ text-transform: uppercase;
     display: inline-block;
     margin: 5%;
 }
-
 .initials{
     text-align: center;
 }
