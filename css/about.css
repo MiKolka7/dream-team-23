@@ -35,11 +35,20 @@
 	padding:0 0 0 20px;
 	float: left;
 	}
-
+.col-2{
+	width: 330px;
+	text-align: left;
+	padding:0 0 0 20px;
+	float: right;
+	}
 img{
 	width: 182px;
 	height: 170px;
 	margin:auto;
+	}
+.img1{
+		width: 200px;
+		float:left;
 	}
 h3{
 	width: 350px;
@@ -55,10 +64,3 @@ h3 p{
 	text-transform: capitalize
 }
 
-.txt-cont{
-	
-}
-.images-about{
-	width:183px;
-	margin:0 auto;
-	}
