@@ -1,0 +1,421 @@
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+	overflow-x: hidden;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-spacing: 0;
+} 
+/* end reset browser styles */
+@media (max-width:1500px) and (min-width: 500px){
+}
+.clearfix::after{
+	content:'';
+	clear: both;
+	overflow: hidden;
+	display: block;
+}
+.new{
+	margin: 0 auto;
+}
+.wrap {
+	overflow-y: hidden;
+}
+.header{
+	position: relative;
+}
+.header-top {
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	right: 5%;
+}
+.logo {
+	width: 8%;
+}
+.menu {
+	float: right;
+	line-height: 400%;
+}
+.menu-item {margin: 0 2em; color: #fff; font-family: Montserrat; font-size: 0.8em; font-weight: 600; text-transform: uppercase; transition: all .3s ease-out;}
+.menu-item:hover {
+	cursor: pointer;
+    opacity: 0.9;
+    color: #fed136;
+} 
+.icon-menu {}
+.icon-search {}
+.footer {}
+.container {}
+.slide {
+	width: 103%;
+	height: 750px;
+	background: url('../image/background_header.jpg') no-repeat;
+	background-size: cover;
+	margin-left: -3%;
+}
+
+.title {
+	color: #303030;
+	font-family: Montserrat;
+	font-size: 30px;
+	font-style: italic;
+}
+
+.welcome{
+	/* Text style for "Welcome To Our" */
+	width: 35%;
+	height: 40%;
+	color: white;
+	font-family: Droid Serif;
+	font-size: 2.5em;
+	font-style: italic;
+	margin: 0 auto;
+	line-height: 15;
+	text-align: center;
+}
+.NTMU{
+	/* Text style for "It’s nice to M" */
+	width: 60%;
+	color: white;
+	font-family: Montserrat;
+	font-size: 4.6em;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 2.5;
+}
+.tell_me
+{
+	font-family: Montserrat;
+	font-size: 1.1em;
+	font-weight: 700;
+	width: 15.6%;
+	height: 9.5%;
+	margin: 0 0 0 43%;
+	transition: all .3s ease .15s;
+	text-transform: uppercase;
+	color: white;
+	border-radius: 0.2em;
+	background: #fed136;
+}
+.services{
+	width: 80%;
+	margin: 6.5% auto;
+}
+.title-services{
+	width: 15.5%;
+	color:#222;
+	font-family: Montserrat;
+	font-size:2.5em;
+	font-weight: 700;
+	line-height:1.33em;
+	text-transform: uppercase;
+	margin: 1% auto;
+}
+.sub-title{
+	/* Text style for "Proin iaculis" */
+	width: 35%;
+	color: #777;
+	font-family: Droid Serif;
+	font-size: 1em;
+	font-style: italic;
+	text-align: center;
+	margin: 1% auto;
+}
+.title-cws{
+	/* Text style for "E-Commerce" */
+	color: #222;
+	font-family: Montserrat;
+	font-size: 1em;
+	font-weight: 700;
+	line-height: 3em;
+}
+.cont{
+	width: 80%;
+	text-align: center;
+	margin: 1% auto;
+}
+.commerce,
+.web,
+.security{
+	width: 20%;
+	display: inline-block;
+	text-align: center;
+	margin: 4%;
+}
+.pic_services-basket{ width: 50%; margin: 0 auto; margin-top: 24%; padding-bottom: 15%;}
+.pic_services-laptop{ width: 50%; margin: 0 auto; margin-top: 28%; padding-bottom: 16%;}
+.pic_services-lock{ width: 40%; margin: 0 auto; margin-top: 21%; padding-bottom: 16%;}
+
+.background{
+	border: 3px solid #fed136;
+	border-radius: 100%;
+	width: 72px;
+	height: 72px;
+	background-color: white;
+	border: 0.3em solid #fed136;
+	list-style-type: none;
+	margin: 0 auto;
+	transition: all .4s ease .15s;
+}
+.background:hover,
+.tell_me:hover {
+	position: static;
+	visibility: visible;
+	opacity: 0.8;
+	cursor: pointer;
+	background-color: #696969;
+	border: 0.3em solid #696969;
+}
+
+.title-commerce{
+	width: 115px;
+	height: 14px;
+	color: #222;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 75px;
+}
+.title-web{
+	width: 114px;
+	height: 18px;
+	color: #222;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 75;
+}
+.title-security{
+	width: 118px;
+	height: 18px;
+	color: #222;
+	font-family: Montserrat;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 75px;
+}
+.description{
+	width: 115%;
+	color: #777;
+	font-family: Roboto Slab;
+	font-size: 0.85em;
+	font-weight: 400;
+	text-align: center;
+	word-spacing: 0.5em;
+}
+.title-portfolio{
+	width: 24%;
+	color: #222;
+	font-family: Montserrat;
+	font-size: 2.5em;
+	font-weight: 700;
+	line-height: 1.33em;
+	text-transform: uppercase;
+	margin: 0 auto;
+	white-space: nowrap;
+}
+.gallery{
+	width: 100%;
+	background-color: #f7f7f7;
+}
+.gallery_inside{
+		width: 95%;
+		padding: 5%;
+}
+.prtflio{
+	width: 75%;
+	margin: 3% auto;
+}
+.prtflio_item{
+	list-style-type: none;
+	float: left;
+	margin: 2% ;
+	background-color: white;
+	transition: all .3s ease .15s;
+}
+.prtflio_item:hover{
+	cursor:pointer;
+	opacity: 0.7;
+}
+.prtflio_pic{
+	width: 100%;
+}
+.prtflio-title{
+    font-family: Montserrat;
+    font-size: 1em;
+    font-weight: 700;
+    width: 65%;
+    margin: 0 auto;
+    padding-top: 10%;
+    text-align: center;
+    color: #333;
+}
+.prtflio_sub-title{
+    font-family: DroidSerif;
+    font-size: 0.9em;
+    font-style: italic;
+    line-height: 1.5em;
+    /* Text style for "Product Mock-U" */
+    width: 40%;
+    margin: 0 auto;
+    padding-bottom: 10%;
+    text-align: center;
+    color: #737373;
+}
+.container{
+	width: 940px;
+	margin: 0 auto;
+}
+.about_title{
+	width: 25%;
+	color: #222;
+	font-family: Montserrat;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 75px;
+	text-transform: uppercase;
+	margin: 0 auto;
+}
+.about {
+	text-align: right;
+	margin-top: 10%;
+}
+.about_item {
+	margin-bottom: 8%;
+	list-style-type: none;
+}
+.about_text{
+	width: 37%;
+	float: left;
+}
+.about_item:nth-of-type(2n) .about_text{
+	float: right;
+	text-align: left;	
+}
+.about_item:nth-of-type(2n) .about_img{
+	float: right;
+}
+.about_text h3,
+.about_text h4{
+color: #222;
+font-family: Montserrat;
+font-size: 1.8em;
+font-weight: 700;
+}
+.about_text h3{
+text-transform: uppercase;
+}
+.about_img {
+	width: 20%;
+	margin: 0 3%;
+	float: left;
+	border-radius: 50%;
+	background-color: #FFF;
+}
+.about_button{
+	/* Style for "Container" */
+	width: 182px;
+	height: 182px;
+	background-color: #fed136;
+	border: 1em solid #f1f1f1;
+	border-radius: 100%;
+	margin-right: 40%;
+	transition: all .7s ease .15s;
+}
+.about_button:hover{
+  	opacity: 0.5;
+   	background: #696969;			
+}
+.text_for_btn{
+   	/* Text style for "Our Story Cont" */
+	width: 100px;
+	height: 94px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.7);
+	color: white;
+	font-family: Montserrat;
+	font-size: 1.35em;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	margin-left: 15%;
+}
+.title_team{
+	/* Text style for "our amazing te" */
+	color: #222;
+	font-family: Montserrat;
+	font-size: 2.5em;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0 auto;
+}
+.block{
+    width: 65%;
+    margin: 0 auto;
+    padding: 5%;
+}
+.step1{
+    display: inline-block;
+    margin: 5%;
+}
+
+.initials{
+    text-align: center;
+}
+.initials_{
+    text-align: center;
+}
+.tw {width: 50%; height: 47%;}
+.fb{width: 25%; height: 50%;}
+.pin{width: 40%; height: 50%;}
+.gog{width: 40%;height: 45%;}
+
+.icons { line-height: 3; float: left; width: 22%; height: 40px; margin: 4%; list-style-type: none; transition: all .3s ease .15s; text-align: center; border: 3px solid #222; border-radius: 80%; background-color: #f9f9f9;}
+.icons:hover{
+    cursor: pointer;
+    opacity: 1;
+    border: 3px solid #fffafa;
+    background: #fffafa;
+}
+.ic{
+    width: 78%;
+    margin: 0 auto;
+}
+.ic_s{
+    width: 75%;
+ 	margin-left: 25%;
+}
+.descr{
+    font-family: Roboto Slab;
+    font-size: 1em;
+    font-weight: 400;
+    /* Text style for "Proin iaculis" */
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    color: #777;
+}

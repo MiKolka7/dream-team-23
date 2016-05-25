@@ -189,3 +189,16 @@ input::-webkit-inner-spin-button {
 input[type=number] {
     -moz-appearance: textfield;
 }
+.about::after,
+.about_item::after,
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: table;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    font-size: 0;
+    
+}
