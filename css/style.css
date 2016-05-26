@@ -66,7 +66,12 @@ table {
     opacity: 0.9;
     color: #fed136;
 }
-
+.menu-item:hover
+{
+    cursor: pointer;
+    opacity: 0.9;
+    color: #fed136;
+}
 .icon-menu {}
 .icon-search {}
 .slide {
@@ -82,7 +87,6 @@ table {
 .logo {
 	width: 104px;
 }
-
 .title {
 	color: #303030;
 	text-align: center;
@@ -91,7 +95,6 @@ table {
 	font-style: italic;
 	line-height: 24px;
 }
-
 .article-title {
 	text-align: center;
 } 
@@ -120,6 +123,24 @@ table {
 	text-transform: uppercase;
 	margin: 0 auto;
 }
-.container {
-	
+.welcome{
+	/* Text style for "Welcome To Our" */
+	width: 30%;
+	height: 40%;
+	color: white;
+	font-family: Droid Serif;
+	font-size: 40px;
+	font-style: italic;
+	margin: 0 auto;
+	line-height: 10;
+}
+.NTMU{
+	/* Text style for "It’s nice to M" */
+	width: 56.5%;
+	color: white;
+	font-family: Montserrat;
+	font-size: 75px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0 auto;
 }

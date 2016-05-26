@@ -10,7 +10,6 @@ section, summary, time, mark, audio, video {
     border: 0;
     vertical-align: baseline;
 }
-
 body,
 html {
     height: 100%;
@@ -34,7 +33,6 @@ html {
     speak: none;
     font-family: sans-serif;
 }
-
 article,
 aside,
 details,
@@ -135,7 +133,6 @@ select:-webkit-autofill {
     background-color: #fff !important;
     color: #000 !important;
 }
-
 input,
 textarea,
 select,
@@ -151,23 +148,19 @@ span,
 a:focus {
     outline: none;
 }
-
 ul {
     list-style-type: none;
 }
-
 table {
     width: 100%;
     border-spacing: 0;
     border-collapse: collapse;
 }
-
 td,
 th {
     padding: 0;
     vertical-align: middle;
 }
-
 code,
 kbd,
 pre,
