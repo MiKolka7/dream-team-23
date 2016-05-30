@@ -11,7 +11,6 @@
 	font-size: 2.5em;
 	font-style: italic;
 	margin: 0 auto;
-	text-align: center;
 	padding-top: 5%;
 }
 .NTMU{
@@ -22,28 +21,23 @@
 	font-weight: 700;
 	text-transform: uppercase;
 	margin: 0 auto;
-	text-align: center;
 	line-height: 2.5;
 }
 .title-services{
-	width: 15.5%;
 	color:#222;
 	font-family: Montserrat;
 	font-size:2.5em;
 	font-weight: 700;
 	line-height:1.33em;
 	text-transform: uppercase;
-	margin: 1% auto;
 }
 .sub-title{
 	/* Text style for "Proin iaculis" */
-	width: 60%;
 	color: #777;
 	font-family: Droid Serif;
 	font-size: 1.2em;
 	font-style: italic;
-	text-align: center;
-	margin: 3% auto;
+	padding: 3%;
 }
 .title-cws{
 	/* Text style for "E-Commerce" */
@@ -52,15 +46,20 @@
 	font-size: 1.25em;
 	font-weight: 700;
 	line-height: 3em;
-	white-space: nowrap;
 }
 .description{
-	width: 95%;
 	color: #777;
 	font-family: RobotoSlab;
 	font-size: 1.15em;
 	font-weight: 400;
-	text-align: center;
+}
+.title-portfolio{
+	color: #222;
+	font-family: Montserrat;
+	font-size: 2.5em;
+	font-weight: 700;
+	line-height: 1.33em;
+	text-transform: uppercase;
 }
 .prtflio-title{
     font-family: Montserrat;
@@ -69,7 +68,6 @@
     width: 65%;
     margin: 0 auto;
     padding-top: 10%;
-    text-align: center;
     color: #333;
 }
 .prtflio_sub-title{
@@ -81,18 +79,15 @@
     max-width: 45%;
     margin: 0 auto;
     padding-bottom: 10%;
-    text-align: center;
     color: #737373;
 }
 .about_title{
-	width: 25%;
 	color: #222;
 	font-family: Montserrat;
 	font-size: 2.5em;
 	font-weight: 700;
 	line-height: 1.4em;
 	text-transform: uppercase;
-	margin: 0 auto;
 }
 .about_text h3,
 .about_text h4{
@@ -119,23 +114,12 @@
 	font-size: 2.5em;
 	font-weight: 700;
 	text-transform: uppercase;
-	text-align: center;
-	margin: 0 auto;
-}
-.initials{
-    text-align: center;
-}
-.initials_{
-    text-align: center;
 }
 .descr{
+    /* Text style for "Proin iaculis" */
     font-family: Roboto Slab;
     font-size: 1em;
     font-weight: 400;
-    /* Text style for "Proin iaculis" */
-    width: 50%;
-    margin: 0 auto;
-    text-align: center;
     color: #777;
 }
 .title_footer{
@@ -145,7 +129,6 @@
 	font-size: 2.5em;
 	font-weight: 700;
 	text-transform: uppercase;
-	text-align: center;
 }
 .text{
 	/* Text style for "© Copyright 20" */
